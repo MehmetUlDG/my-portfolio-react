@@ -1,7 +1,6 @@
 import React,{useState} from 'react';
 import './contactSection.css';
 import { useLanguage } from '../../context/LanguageContext';
-import { tr } from 'framer-motion/client';
 
 const ContactSection = ({ onClose }) => {
   const [isCopied, setIsCopied] = useState();

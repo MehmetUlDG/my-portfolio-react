@@ -1,6 +1,6 @@
 import React,{useState} from 'react';
 import './footer.css';
-import {  Linkedin, GitHub, Mail} from 'react-feather';
+import { Linkedin, GitHub, Mail} from 'react-feather';
 import { useLanguage } from '../../context/LanguageContext'; // Doğru import yolu
 import { NavLink } from 'react-router-dom';
 import ContactSection from '../ContactSection/contactSection';
